@@ -1,0 +1,23 @@
+{
+  "name": "igniting-our-app",
+  "version": "1.0.0",
+  "description": "it's an Ep 03 program",
+  "scripts": {
+    "start": "parcel index.html",
+    "build":"parcel build index.html",
+    "test": "jest"
+  },
+  "author": "Ritesh Narwade",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "cover 99.5%"
+  ]
+}

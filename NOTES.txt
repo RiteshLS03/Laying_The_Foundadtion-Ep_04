@@ -1,0 +1,86 @@
+1) What is JSX ?
+
+JSX is refferered as Javascript XML. cause it does same something like both. JSX allows us to write html like syntax in javascript.
+JSX is developed by facebook developers. JSX make our code more readable maintainable and easy to dubug.
+
+2) What are the superpower of JSX ?
+
+as i mentioned above's quetion , JSX use in our code make code readabale , maintainable and easy to debug.
+
+3) {TitleComponent} vs {<TitleComponent/>} vs {<TitleComponent></TitleComponent>} in JSX
+
+{TitleComponent} is like using in Javascript it's using as a javascript variable or expression.
+
+{<TitleComponent/>} is using it like a Component that returns the JSX. it's like a single component 
+
+{<TitleCompoenet></TitleComponent>} is similar to the above one but but in this we can child component as following
+
+<TitleComponent> 
+ <FirstChild></FirstChild>
+ <Second></Second>
+ <Third></Third>
+</TitleComponent>
+
+4) Role of the type attribute in HTML script tag ?
+
+Certainly, here are examples of the `type` attribute in the `<script>` tag and its options:
+
+1. **Default JavaScript:**
+   ```html
+   <script>
+       // JavaScript code here
+   </script>
+   ```
+   The `type` attribute is not specified, so it defaults to `text/javascript`.
+
+2. **Explicitly specifying JavaScript:**
+   ```html
+   <script type="text/javascript">
+       // JavaScript code here
+   </script>
+   ```
+
+3. **JavaScript module:**
+   ```html
+   <script type="module">
+       import { functionName } from './module.js';
+       // JavaScript module code here
+   </script>
+   ```
+
+4. **ECMAScript:**
+   ```html
+   <script type="text/ecmascript">
+       // ECMAScript (JavaScript) code here
+   </script>
+   ```
+
+5. **Application JavaScript:**
+   ```html
+   <script type="application/javascript">
+       // JavaScript code here
+   </script>
+   ```
+
+6. **Application ECMAScript:**
+   ```html
+   <script type="application/ecmascript">
+       // ECMAScript (JavaScript) code here
+   </script>
+   ```
+
+7. **Other MIME type (example with JSON):**
+   ```html
+   <script type="application/json">
+       {"key": "value"}
+   </script>
+   ```
+
+8. **Custom scripting language (hypothetical example):**
+   ```html
+   <script type="text/custom-language">
+       // Custom scripting language code here
+   </script>
+   ```
+
+Remember that in modern web development, for regular JavaScript code, it's common to omit the `type` attribute entirely, as browsers assume `text/javascript` by default. If you're using JavaScript modules, you would use `type="module"`. When working with other languages or specific use cases, you might need to specify different `type` values that match the content being embedded.
